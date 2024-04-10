@@ -1,0 +1,70 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0202;
+}
+
+.small-height-col {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    height: 50px;
+    width: 600px /* Adjust the height as needed */
+    background-color: #f8f9fa; /* Light background for visibility */
+    /* border: 1px solid #dee2e6; Optional: add a border */
+    padding: 10px; /* Some padding */
+    margin-bottom: 10px;
+    margin-left: 180px;
+    margin-right: 150px;
+    flex: 1
+    /* Space between this row and the next */
+}
+
+.small-height-col2 {
+    margin-top: 10px;
+    width:100%;
+    height: 50px;
+    display:block;
+    color: white;
+    background-color:red;
+    text-align: center;
+    flex: 1
+    /* Space between this row and the next */
+}
+
+
+.dataTable {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.dataTable td, .dataTable th {
+    text-align: center;
+    color: black; /* Change text color */
+    font-weight: bold; /* Bold column names */
+}
+
+.dataTable th {
+    background-color: #3c41f5; /* Change header background color */
+    color: white; /* Change header text color */
+    font-weight: bold; /* Bold header text */
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+/* Add styles for table containers */
+.table-container {
+  flex: 1;
+}
+
+/* Add styles for warning boxes */
+.warning-box {
+  display: none;
+  color: white;
+  padding: 10px;
+}
